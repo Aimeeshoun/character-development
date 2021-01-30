@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: handsa5t.ma
-//Last modified: Sun, Jan 24, 2021 07:41:33 PM
+//Last modified: Mon, Jan 25, 2021 01:33:11 PM
 //Codeset: 1252
 requires maya "2019";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "CCB4098E-47F1-A693-70A7-528955F71188";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.5345990404357654 2.7412621327011775 0.62618717820594683 ;
+	setAttr ".t" -type "double3" 1.6797673975474612 3.0123943967487721 0.6491795872093421 ;
 	setAttr ".r" -type "double3" -61.538352720095645 1880.9999999963707 -2.0331547011546156e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FEA585F2-4DF3-3CAF-B021-0B9D2EB75C4F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 3.4473710226197145;
+	setAttr ".coi" 3.7557785571999731;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
