@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: FACE MODEL2.ma
-//Last modified: Sat, Feb 06, 2021 10:45:24 AM
+//Name: face model 5.ma
+//Last modified: Sat, Feb 06, 2021 01:53:27 PM
 //Codeset: 1252
 requires maya "2019";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C2222907-4EDF-809D-8B1B-828B0A01C861";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.043860123479610102 3.4074423477675491 6.9389723153141283 ;
-	setAttr ".r" -type "double3" -390.33835272871414 -348.19999999949346 4.0615239586908561e-16 ;
+	setAttr ".t" -type "double3" -2.5158040613776285 -0.18866049599341136 10.73707520060578 ;
+	setAttr ".r" -type "double3" -357.93835272871218 -368.19999999949113 -2.5104748601723959e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "68232EEE-4E92-5844-5757-DF99B536EC78";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 6.453458931731852;
+	setAttr ".coi" 9.3517086370489775;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -10234,4 +10234,4 @@ connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file2.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file3.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pPlaneShape4.iog" ":initialShadingGroup.dsm" -na;
-// End of FACE MODEL2.ma
+// End of face model 5.ma
